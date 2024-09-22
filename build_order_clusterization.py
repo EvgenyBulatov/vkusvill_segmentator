@@ -1,10 +1,9 @@
 from pyspark.sql import SparkSession
-import mtspark
-from mtspark import init_spark, get_spark
+from mtspark import init_spark, get_spark, fix_pyspark_import
 import random
 import time
 
-mtspark.fix_pyspark_import(spark_version="3.2.0")
+fix_pyspark_import(spark_version="3.2.0")
 from pyspark.sql import Row
 import pyspark.sql.functions as sf
 from pyspark.sql.dataframe import DataFrame
