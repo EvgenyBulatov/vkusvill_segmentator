@@ -47,7 +47,7 @@
 
 ## Структура проекта
 
-├── auto_segmentator.py   
+├── build_order_clusterization.py   
 └── requirements.txt         
 
 ## Заключение
